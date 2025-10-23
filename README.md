@@ -17,8 +17,25 @@ Bagian Utama:
 
 <form id="login">
 Formulir login yang berisi input untuk username dan password.
-```
+  
+  ```
   <input type="text" id="username" placeholder="Masukkan username" required>
 <input type="password" id="password" placeholder="Masukkan password" required>
-
   ```
+  
+# 2. style.css
+File tampilan form agar terlihat menarik dan responsif.
+
+Gaya Utama:
+
+Background
+Menggunakan gradasi warna:
+```
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+```
+
+# login-container
+Kotak putih di tengah halaman dengan efek bayangan, padding, dan border radius.
+Input & Button Styling
+Input memiliki border lembut dan efek focus biru.
+Tombol login menggunakan warna ungu dengan efek hover yang sedikit lebih gelap.
